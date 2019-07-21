@@ -1,0 +1,16 @@
+SilverStripe\Assets\File:
+  extensions:
+  - SilverStripeSVGGO\Extensions\SVGExtension
+  allowed_extensions:
+  - svg
+  app_categories:
+    image:
+    - svg
+SilverStripe\Assets\Image:
+  extensions:
+  - SilverStripeSVGGO\Extensions\SVGExtension
+  allowed_extensions:
+  - svg
+  app_categories:
+    image:
+    - svg

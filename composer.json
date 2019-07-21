@@ -9,5 +9,19 @@
             "email": "mariusz@magnum34.com"
         }
     ],
-    "require": {}
+    "require": {
+      "silverstripe/cms": "^4.0",
+      "silverstripe/assets": "^1.0"
+    },
+    "extra": {
+      "expose": [
+        "client/dist"
+      ]
+    },
+  "autoload": {
+    "psr-4": {
+      "Magnum34\\SilverStripeSVGGO\\": "src/",
+      "Magnum34\\SilverStripeSVGGO\\tests\\": "tests/"
+    }
+  }
 }
