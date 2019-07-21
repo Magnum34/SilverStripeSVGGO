@@ -3,6 +3,7 @@
 namespace Magnum34\SilverStripeSVGGO\Admin;
 
 use SilverStripe\Admin\ModelAdmin;
+use Magnum34\SilverStripeSVGGO\Models\IconSVG;
 
 /**
  * Created by PhpStorm.
