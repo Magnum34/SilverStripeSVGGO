@@ -9,6 +9,10 @@
             "email": "mariusz@magnum34.com"
         }
     ],
+    "keywords": [
+        "silverstripe",
+        "SVG"
+    ],
     "require": {
       "silverstripe/cms": "^4.0",
       "silverstripe/assets": "^1.0"
