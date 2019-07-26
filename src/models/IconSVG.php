@@ -10,6 +10,8 @@ namespace Magnum34\SilverStripeSVGGO\Models;
 
 use SilverStripe\Assets\File;
 use SilverStripe\Forms\LiteralField;
+use SilverStripe\Forms\RequiredFields;
+use SilverStripe\Forms\TextField;
 use SilverStripe\ORM\DataObject;
 use SilverStripe\Assets\Image;
 use SilverStripe\AssetAdmin\Forms\UploadField;
@@ -36,6 +38,7 @@ class IconSVG extends DataObject
   public function getCMSFields()
   {
     $fields = parent::getCMSFields();
+    $fields->addFieldToTab('Root.Main', TextField::create('Title','Title'));
     $fields->addFieldToTab('Root.Main',
       UploadField::create('Image','Image Icon')
         ->setAllowedExtensions(['svg', 'png', 'jpg','jpeg'])
@@ -43,6 +46,13 @@ class IconSVG extends DataObject
 
     return $fields;
   }
+
+    public function getCMSValidator()
+    {
+        return new RequiredFields([
+            'Title'
+        ]);
+    }
 
 
   private static $summary_fields = [
