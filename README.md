@@ -57,6 +57,8 @@ Adding custom class to SVG or image
 $Icon.setCSSClass('test')
 
 ```
+## TODO
+SVGField
 
 ## License
 MIT license. See the LICENSE file for more details.
