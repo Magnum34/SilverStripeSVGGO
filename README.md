@@ -8,10 +8,7 @@ SilverStripe 4 or higher
 ## Installation
 ```composer require magnum34/silverstripe-svg-go```
 
-## License
-MIT license. See the LICENSE file for more details.
-
-#### Examples
+#### Usage
 
 
 ```php
@@ -49,3 +46,19 @@ class CustomPage extends Page {
 }
 
 ``` 
+
+for Template
+```html
+$Icon
+
+```
+Adding custom class to SVG or image
+```html
+$Icon.setCSSClass('test')
+
+```
+
+## License
+MIT license. See the LICENSE file for more details.
+
+
