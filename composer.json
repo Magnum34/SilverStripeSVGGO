@@ -15,7 +15,9 @@
     ],
     "require": {
       "silverstripe/cms": "^4.0",
-      "silverstripe/assets": "^1.0"
+      "silverstripe/assets": "^1.0",
+      "sheadawson/silverstripe-select2": "dev-master",
+      "burnbright/silverstripe-hasonefield": "dev-master"
     },
     "extra": {
       "expose": [
