@@ -3,6 +3,7 @@
 namespace SilverStripeSVGGO\Extensions;
 
 use SilverStripe\ORM\DataExtension;
+use SilverStripe\ORM\FieldType\DBHTMLText;
 
 /**
  * Created by PhpStorm.
