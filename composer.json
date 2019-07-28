@@ -13,6 +13,7 @@
         "silverstripe",
         "SVG"
     ],
+    "minimum-stability": "dev",
     "require": {
       "silverstripe/cms": "^4.0",
       "silverstripe/assets": "^1.0",
