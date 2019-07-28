@@ -2,6 +2,7 @@
 [![Build Status](https://img.shields.io/travis/magnum34/SilverStripeSVGGO)](https://travis-ci.org/Magnum34/SilverStripeSVGGO)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Magnum34/SilverStripeSVGGO/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Magnum34/SilverStripeSVGGO/?branch=master)
 [![SilverStripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://addons.silverstripe.org/add-ons/magnum34/silverstripe-svg-go/)
+
 Basic SVG support for SilverStripe
 
 ## Requirements
