@@ -22,3 +22,6 @@ before_script:
 
 - if [[ $DB == PGSQL ]]; then composer require --prefer-dist --no-update silverstripe/postgresql 2.0.x-dev; fi
 - composer update
+
+after_success:
+- if [[ $PHPUNIT_COVERAGE_TEST ]]; then bash <(curl -s https://codecov.io/bash) -f coverage.xml; fi

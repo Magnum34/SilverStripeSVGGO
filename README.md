@@ -1,5 +1,6 @@
 # SilverStripe SVG GO
 [![Build Status](https://img.shields.io/travis/magnum34/SilverStripeSVGGO)](https://travis-ci.org/Magnum34/SilverStripeSVGGO)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Magnum34/SilverStripeSVGGO/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Magnum34/SilverStripeSVGGO/?branch=master)
 
 Basic SVG support for SilverStripe
 
