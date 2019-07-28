@@ -1,7 +1,7 @@
 {
     "name": "magnum34/silverstripe-svg-go",
     "description": "Basic SVG Image Support",
-    "type": "silverstripe-vendormodule",
+    "type": "silverstripe-module",
     "license": "MIT",
     "authors": [
         {
