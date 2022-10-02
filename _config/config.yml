@@ -6,6 +6,8 @@ SilverStripe\Assets\File:
   app_categories:
     image:
     - svg
+  class_for_file_extension:
+    svg:  SilverStripe\Assets\Image    
 SilverStripe\Assets\Image:
   extensions:
   - SilverStripeSVGGO\Extensions\SVGExtension
